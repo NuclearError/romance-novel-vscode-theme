@@ -1,0 +1,60 @@
+{
+  "name": "romance-novel",
+  "displayName": "Romance Novel",
+  "description": "A soft theme for writing a novel.",
+  "version": "0.0.1",
+  "publisher": "nuclearerror",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/NuclearError/romance-novel-vscode-theme"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "color-theme",
+    "theme",
+    "romance",
+    "romance novel",
+    "novel",
+    "paper",
+    "parchment",
+    "handwriting",
+    "writer",
+    "beige",
+    "brown",
+    "pink"
+  ],
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Romance Novel Morning",
+        "uiTheme": "vs",
+        "path": "./themes/romance-novel-morning-color-theme.json"
+      },
+      {
+        "label": "Romance Novel Afternoon",
+        "uiTheme": "vs",
+        "path": "./themes/romance-novel-afternoon-color-theme.json"
+      },
+      {
+        "label": "Romance Novel Evening",
+        "uiTheme": "vs-dark",
+        "path": "./themes/romance-novel-evening-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "publisherDisplayName": "nuclearerror",
+    "targetPlatform": "undefined",
+    "updated": false,
+    "isPreReleaseVersion": false,
+    "hasPreReleaseVersion": false,
+    "pinned": false,
+    "source": "gallery"
+  }
+}
